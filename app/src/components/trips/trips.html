@@ -1,0 +1,21 @@
+
+<section>
+       
+        <h2>Browse Trips</h2>
+        <div id="filters">
+
+        </div>
+        <div id="trip-gallery">
+                <ul id="trip-list">
+                        <li ng-repeat="trip in $ctrl.trips">
+                                <div>
+                                        <h3>{{trip.name}}</h3>
+                                        <h4>{{trip.type}}</h4>
+                                        <h4>{{trip.startDate}} to {{trip.endDate}}</h4>
+                                        <h4>{{trip.startlocation}}</h4>
+                                        <p>{{trip.description}}</p>          
+                                <div>
+                        </li>
+                </ul>
+        <div>
+</section>
