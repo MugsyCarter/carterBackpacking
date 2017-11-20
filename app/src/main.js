@@ -10,7 +10,7 @@ import 'angular-ui-router/release/stateEvents';
 
 const app = angular.module('myApp', [components, services, uiRouter]);
 
-app.value('apiUrl', 'http://localhost:3000/api');
+//app.value('apiUrl', 'http://localhost:3000/api');
 
 app.config(routes);
 

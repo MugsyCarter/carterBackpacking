@@ -3,7 +3,7 @@
         <nav class="navbar navbar-default">
                 <div class="container-fluid">
                   <div class="navbar-header">
-                    <a class="navbar-brand" ui-sref="home">BackpackingPNW</a>
+                    <a class="navbar-brand" ui-sref="home">Carter Family Backpacking</a>
                   </div>
                   <ul class="nav navbar-nav">
                     <li><a ui-sref="home" class="active"><span class="glyphicon glyphicon-home"></span>Home</a></li>
@@ -22,11 +22,6 @@
                         </div>
                     </form>         
                   </ul>
-                  <ul class="nav navbar-nav navbar-right">
-                        <li ng-if='$ctrl.loggedIn===false'><a ui-sref="signup"><span class="glyphicon glyphicon-pencil"></span> Sign Up</a></li>
-                        <li ng-if='$ctrl.loggedIn===false'><a ui-sref="login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                        <li ng-if='$ctrl.loggedIn===true'><a ui-sref="logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
-                      </ul>
                 </div>
               </nav>
   
