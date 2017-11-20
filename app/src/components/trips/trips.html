@@ -5,17 +5,24 @@
         <div id="filters">
 
         </div>
-        <div id="trip-gallery">
-                <ul id="trip-list">
-                        <li ng-repeat="trip in $ctrl.trips">
-                                <div>
-                                        <h3>{{trip.name}}</h3>
-                                        <h4>{{trip.type}}</h4>
-                                        <h4>{{trip.startDate}} to {{trip.endDate}}</h4>
-                                        <h4>{{trip.startlocation}}</h4>
-                                        <p>{{trip.description}}</p>          
-                                <div>
-                        </li>
-                </ul>
-        <div>
+
+
+        <div class="trip-gallery">
+                <div class="card" ng-repeat="trip in $ctrl.trips">
+                        <h3 class="card-header">{{trip.name}}</h3>
+                        <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                        </div>
+                        <img style="height: 200px; width: 100%; display: block;" src="">
+                        <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                                2 days ago
+                        </div>
+                </div>
+        </div>
 </section>
